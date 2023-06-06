@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>댓글 수정/삭제 예시</title>
+  <style>
+    .comment {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>댓글</h1>
+  <div id="comments"></div>
+
+  <h2>새로운 댓글 추가</h2>
+  <form id="commentForm">
+    <input type="text" id="nickname" placeholder="닉네임" required><br>
+    <input type="password" id="password" placeholder="비밀번호" required><br>
+    <textarea id="commentText" rows="4" cols="50" required></textarea><br>
+    <button type="submit">댓글 추가</button>
+  </form>
+
+  <script src="ex.js"></script>
+</body>
+</html>
